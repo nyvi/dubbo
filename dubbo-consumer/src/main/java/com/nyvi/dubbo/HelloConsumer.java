@@ -1,6 +1,7 @@
 package com.nyvi.dubbo;
 
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.alibaba.dubbo.config.annotation.Reference;
@@ -11,9 +12,8 @@ public class HelloConsumer {
 	@Reference
 	private IHelloService helloService;
 
-	@GetMapping("sayHello")
-	public String sayHello() {
-		String name = "Dubbo";
+	@GetMapping("sayHello/{name}")
+	public String sayHello(@PathVariable("name") String name) {
 		return helloService.sayHello(name);
 	}
 }
