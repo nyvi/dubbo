@@ -1,5 +1,5 @@
 # dubbo demo
-一个dubbo整合springBoot的简单例子
+一个dubbo整合SpringBoot的简单例子
 
 ## 运行步骤
 1. 启动zookeeper
