@@ -16,4 +16,5 @@ public class DubboConsumerLauncher {
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(DubboConsumerLauncher.class, args);
 	}
+	
 }

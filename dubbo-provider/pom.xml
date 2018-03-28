@@ -9,26 +9,32 @@
 	<artifactId>dubbo-provider</artifactId>
 
 	<dependencies>
+	
 		<dependency>
 			<groupId>com.dubbo</groupId>
 			<artifactId>dubbo-api</artifactId>
 		</dependency>
+	
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+	
 		<dependency>
 			<groupId>com.alibaba.spring.boot</groupId>
 			<artifactId>dubbo-spring-boot-starter</artifactId>
 		</dependency>
+	
 		<dependency>
 			<groupId>org.apache.zookeeper</groupId>
 			<artifactId>zookeeper</artifactId>
 		</dependency>
+	
 		<dependency>
 			<groupId>org.apache.curator</groupId>
 			<artifactId>curator-framework</artifactId>
 		</dependency>
+	
 	</dependencies>
 
 </project>
