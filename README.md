@@ -13,5 +13,5 @@
 你也可以到duboo的管理平台(就刚刚的dubbo-admin)查看结果,初始账户为:root/root
 ## 参考文档
 <a href="https://github.com/alibaba/dubbo-spring-boot-starter">dubbo-spring-boot-starter</a>  
-<a href="http://dubbo.io/books/dubbo-user-book/">dubbo user guide</a>  
-<a href="http://dubbo.io/books/dubbo-admin-book/">dubbo admin guide</a>
+<a href="http://dubbo.apache.org/books/dubbo-user-book/">dubbo user guide</a>  
+<a href="http://dubbo.apache.org/books/dubbo-admin-book/">dubbo admin guide</a>
